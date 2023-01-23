@@ -1,0 +1,10 @@
+import { useContext } from "react";
+import QuizContext from "./QuizProvider";
+
+const useQuiz = () => {
+
+    return useContext(QuizContext)
+
+}
+
+export default useQuiz
